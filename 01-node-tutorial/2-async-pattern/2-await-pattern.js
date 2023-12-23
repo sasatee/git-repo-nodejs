@@ -13,7 +13,8 @@ const start = async () => {
       { flag: "a" }
     );
 
-    console.log(first, second);
+    console.log(first);
+    console.log(second);
   } catch (error) {
     console.log(error);
   }
